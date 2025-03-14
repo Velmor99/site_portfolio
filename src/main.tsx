@@ -6,7 +6,7 @@ import "./global.css";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter basename="/site_portfolio">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
       </Routes>
